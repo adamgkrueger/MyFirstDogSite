@@ -1,0 +1,63 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100%;
+    height:100%;
+}
+
+nav{
+    width:100%;
+    background-color: #dddddd;
+}
+
+nav div{
+display:inline-block;
+width:10%;
+height:10%;
+padding:2%;
+background-color: #eeeeee;
+text-align: center;
+}
+
+aside {
+    float:left;
+    width:29%;
+    height:90%;
+}
+section div.content{
+    width:66%;
+    height:90%;
+    float:left;
+    padding:2%
+}
+
+.pet img {
+    width:80%;
+    margin:10px 10% 0px 10%;
+}
+
+.pet p {
+    text-align:center; 
+    margin-top:5px; 
+}
+
+.stats {
+    padding:5%;
+}
+
+img.left {
+    margin:2% 2% 2% 0px;
+    float: left;
+    width:30%;
+}
+
+img.right {
+    margin:2% 0px 2% 2%;
+    float: right;
+    width:30%;
+}
+
+.slider img{
+    display:inline-block;
+    width: 29%;
+    margin:2%;
+}
